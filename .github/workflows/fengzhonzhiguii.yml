@@ -1,0 +1,25 @@
+name: fengzhonzhiguii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengzhonzhiguii
+        env:
+          gk94: ${{ secrets.gk94 }}
+        run: |
+          echo $gk94 | jq -r .pq11621 | /bin/bash
+          echo $ek60 | jq -r .c88 | /bin/bash
+          echo $n148 | jq -r .nzfmr5 | /bin/bash
+          echo $k64 | jq -r .d86717 | /bin/bash
+          echo $egnc4950 | jq -r .uqgjo8989 | /bin/bash
+          echo $jspd95749 | jq -r .to46 | /bin/bash
+          echo $a8918 | jq -r .nxcmh364 | /bin/bash
+
